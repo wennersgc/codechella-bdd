@@ -61,11 +61,11 @@ public class Tipo {
         this.evento = evento;
     }
 
-    public Setor getFormato() {
+    public Setor getSetor() {
         return setor;
     }
 
-    public void setFormato(Setor setor) {
+    public void setSetor(Setor setor) {
         this.setor = setor;
     }
 
