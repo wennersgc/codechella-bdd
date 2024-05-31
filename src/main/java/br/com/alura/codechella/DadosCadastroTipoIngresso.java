@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Positive;
 
 public record DadosCadastroTipoIngresso(
         @NotNull(message = "O formato do ingresso é obrigatório!")
-        Formato formato,
+        Setor setor,
         @NotNull(message = "A definição do tipo de ingresso é obrigatória!")
         Definicao definicao,
         @NotNull
